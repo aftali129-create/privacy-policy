@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سياسة الخصوصية وشروط الاستخدام - القرآن الكريم 3D</title>
+    <style>
+        :root {
+            --bg-color: #0b1d16;
+            --card-bg: rgba(255, 255, 255, 0.07);
+            --card-border: rgba(255, 255, 255, 0.12);
+            --gold: #dfb259;
+            --green-text: #41d392;
+            --white-text: #e0e0e0;
+            --muted-text: #a0a0a0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            background-image: radial-gradient(circle at top, #143327 0%, #0b1d16 80%);
+            color: var(--white-text);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            direction: rtl;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 20px;
+            padding: 25px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+            backdrop-filter: blur(10px);
+        }
+
+        .nav-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 25px;
+            border-bottom: 1px solid var(--card-border);
+            padding-bottom: 15px;
+        }
+
+        .tab-btn {
+            background: transparent;
+            border: 2px solid var(--gold);
+            color: var(--gold);
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .tab-btn.active, .tab-btn:hover {
+            background: var(--gold);
+            color: var(--bg-color);
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        h1 {
+            color: var(--gold);
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .intro-box {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 15px;
+            border-radius: 12px;
+            text-align: center;
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            color: var(--gold);
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        ol {
+            padding-right: 20px;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 18px;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+
+        li strong {
+            color: #ffffff;
+        }
+
+        .highlight-box {
+            color: var(--green-text);
+            text-align: center;
+            font-weight: bold;
+            line-height: 1.6;
+            margin-top: 25px;
+            padding: 15px;
+            border-radius: 10px;
+            background: rgba(65, 211, 146, 0.05);
+        }
+
+        .footer {
+            text-align: center;
+            color: var(--gold);
+            font-size: 14px;
+            margin-top: 25px;
+            padding-top: 15px;
+            border-top: 1px solid var(--card-border);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    
+    <!-- التبويبات -->
+    <div class="nav-tabs">
+        <button class="tab-btn active" onclick="switchTab('privacy')">سياسة الخصوصية</button>
+        <button class="tab-btn" onclick="switchTab('terms')">شروط الاستخدام</button>
+    </div>
+
+    <!-- قسم سياسة الخصوصية -->
+    <div id="privacy" class="tab-content active">
+        <h1>سياسة الخصوصية</h1>
+        
+        <div class="intro-box">
+            🛡️ نحن في تطبيق «القرآن الكريم 3D» نلتزم التزاماً كاملاً وصادقاً بحماية خصوصيتك واحترام بياناتك الشخصية.
+        </div>
+
+        <div class="section-title">الأذونات المستخدمة والغرض الفعلي منها:</div>
+
+        <ol>
+            <li><strong>إذن الموقع (Location):</strong> يُستخدم محلياً على جهازك لحساب مواقيت الصلاة الدقيقة، واتجاه القبلة، والبحث عن المساجد القريبة. لا يتم حفظ موقعك أو إرساله إلى أيخوادم خارجية.</li>
+            <li><strong>إذن الكاميرا (Camera):</strong> يُستخدم حصراً في ميزة القبلة بالواقع المعزز (AR Qibla) لعرض اتجاه الكعبة المشرفة فوق المشهد الحي. لا يتم التقاط أي صور أو تسجيل مقاطع فيديو مطلقاً.</li>
+            <li><strong>إذن ومستشعرات الحركة (Sensors):</strong> تُستخدم بوصلة الجهاز ومستشعر التسارع لتحديد اتجاه القبلة واحتساب خطوات المشي للعبادة محلياً.</li>
+            <li><strong>التخزين والصوت:</strong> يُستخدم تخزين الجهاز فقط لحفظ ملفات التلاوات الصوتية التي تختار تحميلها بنفسك للاستماع إليها بدون إنترنت.</li>
+            <li><strong>الإنترنت:</strong> يُستخدم لتحميل التلاوات الصوتية وجلب التحديثات الإسلامية الموثوقة.</li>
+        </ol>
+
+        <div class="highlight-box">
+            نؤكد بصورة قاطعة أننا لا نجمع، ولا نخزن، ولا نبيع، ولا نشارك أي بيانات شخصية أو معلومات تعريفية خاصة بالمستخدم مع أي طرف ثالث.
+        </div>
+    </div>
+
+    <!-- قسم شروط الاستخدام -->
+    <div id="terms" class="tab-content">
+        <h1>شروط الاستخدام</h1>
+
+        <div class="intro-box">
+            ⚖️ مرحباً بك في تطبيق «القرآن الكريم 3D». استخدامك لهذا التطبيق يعني موافقتك الكاملة على هذه الشروط المنظمة.
+        </div>
+
+        <ol>
+            <li><strong>الغرض من التطبيق:</strong> تم تطوير هذا التطبيق كخدمة إسلامية ودينية غير ربحية تهدف لتييسير تلاوة كتاب الله العزيز، والاستماع للقرآن، ومعرفة مواقيت الصلاة والقبلة.</li>
+            <li><strong>دقة النصوص:</strong> تم استخراج وتدقيق جميع النصوص القرآنية الكريمة وتشكيلها الشريف وفقاً للرسم العثماني المعتمد، ومراجعة مواقيت الصلاة بدقة فلكية عالية.</li>
+            <li><strong>حقوق الملكية الفكرية:</strong> جميع حقوق التصميم والبرمجة محفوظة للمطور علاوي النعيمي (2026). يُمنع نسخ أو إعادة نشر التطبيق لأغراض تجارية دون إذن رسمي.</li>
+            <li><strong>التحديثات والتسينات:</strong> نواصل العمل على تحسين تجربة المستخدم وإضافة الميزات النافعة دون انقطاع بإذن الله.</li>
+        </ol>
+
+        <div class="footer">
+            © 2026 القرآن الكريم 3D • تطوير علاوي النعيمي. جميع الحقوق محفوظة.
+        </div>
+    </div>
+
+</div>
+
+<script>
+    function switchTab(tabName) {
+        document.querySelectorAll('.tab-content').forEach(content => {
+            content.classList.remove('active');
+        });
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.classList.remove('active');
+        });
+
+        document.getElementById(tabName).classList.add('active');
+        event.currentTarget.classList.add('active');
+    }
+</script>
+
+</body>
+</html>
